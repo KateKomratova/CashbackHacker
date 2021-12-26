@@ -13,7 +13,7 @@ public class CashbackHackServiceTest {
         int expected = 500;
         int actual = cashbackHackService.remain(500);
 
-        assertEquals(actual, expected);
+        assertEquals(expected,actual);
     }
 
     @Test
